@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    padding: 20px;
+    text-align: left;
+    margin: 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #343a40;
+}
+
+.caja {
+    display: grid;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.h4 {
+    margin-bottom: 2px;
+}
+
+.inputTarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.boton {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #218838;
+}
+
+.contenedor {
+    margin-top: 20px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.contenedor p {
+    margin: 0;
+}
+
+.tareascss {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.tareascss p, .tareascss h3, .tareascss input, .tareascss button {
+    margin: 0;
+    padding: 0;
+}
+
+.tareascss input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.tareascss button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tareascss button:hover {
+    background-color: #c82333;
+}
